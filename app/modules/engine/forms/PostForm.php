@@ -14,5 +14,11 @@ class PostForm extends Form
         $this->add(new Text("title"));
 
         $this->add(new Text("description"));
+
+        $this->add(new Select("type", array(
+            '1' => 'High',
+            '2' => 'Middle',
+            '3' => 'Ready'
+        )));
     }
 }

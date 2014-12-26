@@ -15,10 +15,11 @@ class AdminController extends \Phalcon\Mvc\Controller
 
     public function postAction()
     {
+        $postModel = new Post();
+        $forms = new PostForm();
         if ($this->request->isPost()) {
 
-            $postModel = new Post();
-            $forms = new PostForm();
+
             $forms->bind($this->request->getPost(), $postModel);
             $postModel->setDate(date("Y-m-d h:i:s"));
 
@@ -30,17 +31,16 @@ class AdminController extends \Phalcon\Mvc\Controller
             }
             return $this->response->redirect('admin');
         }
+        $this->view->form = $forms;
     }
 
     public function postEditAction($id)
     {
         $postModel = Post::findFirst($id);
-
+        $form = new PostForm();
         if ($this->request->isPost()) {
 
-            $form = new PostForm();
             $form->bind($this->request->getPost(), $postModel);
-
             $postModel->setDate(date("Y-m-d h:i:s"));
 
             if (!$postModel->save()) {
@@ -51,6 +51,7 @@ class AdminController extends \Phalcon\Mvc\Controller
             }
             return $this->response->redirect('admin');
         }
+        $this->view->form = $$form;
         $this->view->post = $postModel;
     }
 

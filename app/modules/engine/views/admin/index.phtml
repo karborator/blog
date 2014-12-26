@@ -1,4 +1,4 @@
-<div class="col-sm-6">
+<div class="col-sm-12">
     <div class="row">
         <p>Welcome</p>
 
@@ -7,15 +7,43 @@
 
     <div class="row">
        <?php
-        foreach($posts as $post){?>
-            <p><?php echo $post->getTitle()?></p>
-            <p><?php echo $post->getDescription()?></p>
-            <p><?php echo $post->getDate()?></p>
-            <p>
-                <a href="/admin/post/edit/<?php echo $post->getId()?>" class="alert alert-success">Edit</a>
-                <a href="/admin/post/delete/<?php echo $post->getId()?>" class="alert alert-danger">Delete</a>
-            </p>
-            <hr>
-        <?php }?>
+        foreach($posts as $post){
+           if($post->getType() == 1){?>
+            <div class="col-sm-4 alert alert-danger" style="margin-left: 80%;">
+                <p><?php echo $post->getTitle()?></p>
+                        <p><?php echo $post->getDescription()?></p>
+                        <p><?php echo $post->getDate()?></p>
+                        <p>
+                            <a href="/admin/post/edit/<?php echo $post->getId()?>" class="alert alert-success">Edit</a>
+                            <a href="/admin/post/delete/<?php echo $post->getId()?>" class="alert alert-danger">Delete</a>
+                        </p>
+                        <hr>
+             </div>
+           <?php }
+           if($post->getType() == 2){?>
+                <div class="col-sm-4 alert alert-warning" style="margin-left: 40%;">
+                <p><?php echo $post->getTitle()?></p>
+                                   <p><?php echo $post->getDescription()?></p>
+                                   <p><?php echo $post->getDate()?></p>
+                                   <p>
+                                       <a href="/admin/post/edit/<?php echo $post->getId()?>" class="alert alert-success">Edit</a>
+                                       <a href="/admin/post/delete/<?php echo $post->getId()?>" class="alert alert-danger">Delete</a>
+                                   </p>
+                                   <hr>
+                </div>
+           <?php }
+           if($post->getType() == 3){?>
+                <div class="col-sm-4 alert alert-success">
+                <p><?php echo $post->getTitle()?></p>
+                        <p><?php echo $post->getDescription()?></p>
+                        <p><?php echo $post->getDate()?></p>
+                        <p>
+                            <a href="/admin/post/edit/<?php echo $post->getId()?>" class="alert alert-success">Edit</a>
+                            <a href="/admin/post/delete/<?php echo $post->getId()?>" class="alert alert-danger">Delete</a>
+                        </p>
+                        <hr>
+                </div>
+           <?php }
+           }?>
     </div>
 </div>

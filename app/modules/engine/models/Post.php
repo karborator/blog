@@ -26,6 +26,11 @@ class Post extends Model
      */
     public $date;
 
+    /**
+     * @var
+     */
+    public $type;
+
     public function initialize()
     {
         $this->setSource("posts");
@@ -47,6 +52,24 @@ class Post extends Model
         $this->id = $id;
         return $this;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    /**
+     * @param mixed $type
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+        return $this;
+    }
+
 
     /**
      * @return mixed
