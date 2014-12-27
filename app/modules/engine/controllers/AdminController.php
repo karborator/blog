@@ -10,7 +10,20 @@ class AdminController extends \Phalcon\Mvc\Controller
     public function indexAction()
     {
         $postModel = Post::find();
-        $this->view->setVar('posts', $postModel);
+        $counter = $postModel->count();
+        $data = array();
+
+        for ($i = 0; $i < $counter; $i++) {
+            if ($postModel[$i]->getType() == 2) {
+                $data['warning'][] = $postModel[$i]->toArray();
+            } elseif ($postModel[$i]->getType() == 1) {
+                $data['danger'][] = $postModel[$i]->toArray();
+            } elseif ($postModel[$i]->getType() == 3) {
+                $data['success'][] = $postModel[$i]->toArray();
+            }
+        }
+
+        $this->view->setVar('data', $data);
     }
 
     public function postAction()
