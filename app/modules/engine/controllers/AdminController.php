@@ -64,7 +64,7 @@ class AdminController extends \Phalcon\Mvc\Controller
             }
             return $this->response->redirect('admin');
         }
-        $this->view->form = $$form;
+        $this->view->form = $form;
         $this->view->post = $postModel;
     }
 
