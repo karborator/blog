@@ -2,102 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca801c64-1009-447f-a128-ce19a6075c2d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/search/views/about.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/OfferForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_stage.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/business/lessons.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/ExploreBusinessForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/AddBusinessLessonsForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/business/studio.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Collections/BaseCollection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/NotificationController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/AddBusinessShopForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/search/controllers/AccountController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/admin/controllers/IndexController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/CompleteProfileController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/db_scheme/2014-11-24.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/BusinessLabel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/AddArtistBandForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/profile_type.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/Bands/ArtistsBandMembers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/agent/views/about.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/ExploreArtistsForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/mylabels.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/BusinessStage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/AddBusinessStageForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Notifications.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/admin/controllers/AccountController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/admin/Module.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/admin/views/index.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_band.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/changepassword.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/agent/controllers/IndexController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/ExploreController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Manager/Manager.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/ProfileController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/business.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/validators/PasswordValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_studio.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/search/controllers/IndexController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/BusinessProfileForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/artist.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/CompleteProfileController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/business_profile.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/OffersController.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Sessions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/validators/ConfirmValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Offers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/search/Module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/validators/PasswordValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/business/shop.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/Bands/ArtistsBandMembers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/search/views/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/Bands/ArtistsBandPerformances.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/search/controllers/AccountController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/admin/Module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/BusinessStudio.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_shop.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/artist_profile.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/notification/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/search/controllers/IndexController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/ArtistsProfileForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_stage.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Manager/Manager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/mystages.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/changepassword.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/profile_type.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/mystudios.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Collections/ProfileCollection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/OfferForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_business.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/business/stage.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/ChangePasswordForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/AddBusinessStageForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/ExploreController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/business/lessons.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/mylabels.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/myshops.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Notifications.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Enom/IndexEnom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/home/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/artist.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/agent/controllers/IndexController.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/Bands/ArtistsBands.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/HomeController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/artists/artist.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/mylessons.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/mystudios.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_label.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/Bands/ArtistsBandPerformances.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_lessons.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/ArtistsProfileForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/AddBusinessLabelForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/artists/band.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/artists/musician.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/ChangePasswordForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Collections/ProfileCollection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/business/shop.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/BusinessStudio.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/mystages.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/myshops.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/business/label.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/search/views/index.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/BusinessLessons.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/_form.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/ProfileAddController.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/Bands/ArtistsBandAvatar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/agent/Module.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/home/index.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/business_profile.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/treits/UserT.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Enom/ProfileEnom.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/AddBusinessStudioForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/db_scheme/2014-10-01.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/Artists.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/ArtistsContacts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_business.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/search/Module.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/OffersController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/validators/ConfirmValidator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Enom/ProfileEnom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/agent/views/about.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/BusinessStage.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/agent/views/index.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/mybands.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/AddArtistBandForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/ProfileAddController.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/index.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/treits/ProfileT.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Enom/IndexEnom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/business/stage.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/ArtistsPerformances.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/Business.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/BusinessShop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_studio.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/admin/views/index.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/db_scheme/2014-10-01.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/business/studio.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/artists/band.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Collections/CollectionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/db_scheme/2014-11-24.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/treits/UserT.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/AddBusinessLabelForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/ArtistsPerformances.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/ExploreArtistsForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/Business.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/AddBusinessShopForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/admin/controllers/AccountController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/BusinessProfileForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/AddBusinessLessonsForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/business.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/artists/artist.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/forms/ExploreBusinessForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Collections/BaseCollection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Offers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/mybands.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/_form.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/BusinessShop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/controllers/NotificationController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/agent/Module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/mylessons.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/artists/musician.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/ArtistsContacts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/search/views/about.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/treits/ProfileT.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/BusinessLessons.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_lessons.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/explore/_partials/business/label.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/artist_profile.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Business/BusinessLabel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/models/Artists/Artists.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_band.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/profile/add/add_label.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/admin/controllers/IndexController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modules/engine/views/notification/index.phtml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/engine/plugins/Security.php" afterPath="$PROJECT_DIR$/app/modules/engine/plugins/Security.php" />
     </list>
     <ignored path="minsp.iws" />
@@ -135,10 +135,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/modules/engine/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.958334" vertical-offset="0" max-vertical-offset="2175">
+            <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1305">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
@@ -148,7 +148,7 @@
       <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/modules/engine/models/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.0" vertical-offset="1624" max-vertical-offset="3668">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="960" max-vertical-offset="1965">
               <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
               <folding />
             </state>
@@ -158,18 +158,21 @@
       <file leaf-file-name="post.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/modules/engine/views/admin/post.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.791666" vertical-offset="0" max-vertical-offset="725">
+            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="435">
               <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/modules/engine/views/admin/index.phtml">
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36321303" vertical-offset="96" max-vertical-offset="1752">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state vertical-scroll-proportion="-1.6875" vertical-offset="216" max-vertical-offset="1110">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -178,7 +181,7 @@
       <file leaf-file-name="PostForm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/modules/engine/forms/PostForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="696">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="435">
               <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="e#40#63#0#PHP" expanded="true" />
@@ -247,10 +250,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-4" />
-    <option name="width" value="1922" />
-    <option name="height" value="1085" />
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -275,6 +277,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -425,7 +428,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -525,11 +527,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27908218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28228387" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -570,6 +572,51 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/modules/engine/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1305">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/engine/models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1965">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/engine/views/admin/post.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="435">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/engine/views/admin/index.phtml">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/engine/forms/PostForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="435">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#40#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/modules/engine/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
@@ -778,7 +825,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/modules/engine/forms/PostForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="696">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="435">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="e#40#63#0#PHP" expanded="true" />
@@ -786,34 +833,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/engine/models/Post.php">
+    <entry file="file://$PROJECT_DIR$/app/modules/engine/views/admin/index.phtml">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0" vertical-offset="1624" max-vertical-offset="3668">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        <state vertical-scroll-proportion="-1.6875" vertical-offset="216" max-vertical-offset="1110">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/modules/engine/views/admin/post.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.791666" vertical-offset="0" max-vertical-offset="725">
+        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="435">
           <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/engine/models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="960" max-vertical-offset="1965">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/modules/engine/controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.958334" vertical-offset="0" max-vertical-offset="2175">
+        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1305">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/engine/views/admin/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36321303" vertical-offset="96" max-vertical-offset="1752">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding />
         </state>
       </provider>
