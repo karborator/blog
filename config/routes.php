@@ -47,16 +47,34 @@ $router->add('/admin/new-post', array(
     'action' => 'post'
 ))->via(array("GET", "POST"));
 
+$router->add('/admin/new-issue', array(
+    'module' => 'engine',
+    'controller' => 'admin',
+    'action' => 'issue'
+))->via(array("GET", "POST"));
+
 $router->add('/admin/post/edit/{id}', array(
     'module' => 'engine',
     'controller' => 'admin',
     'action' => 'postedit'
 ))->via(array("GET", "POST"));
 
+$router->add('/admin/issue/edit/{id}', array(
+    'module' => 'engine',
+    'controller' => 'admin',
+    'action' => 'issueedit'
+))->via(array("GET", "POST"));
+
 $router->add('/admin/post/delete/{id}', array(
     'module' => 'engine',
     'controller' => 'admin',
     'action' => 'postdelete'
+))->via(array("GET"));
+
+$router->add('/admin/post/done/{id}', array(
+    'module' => 'engine',
+    'controller' => 'admin',
+    'action' => 'postdone'
 ))->via(array("GET"));
 
 $router->add('/admin/sign-out', array(

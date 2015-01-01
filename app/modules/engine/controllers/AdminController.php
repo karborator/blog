@@ -26,6 +26,50 @@ class AdminController extends \Phalcon\Mvc\Controller
         $this->view->setVar('data', $data);
     }
 
+    public function issueAction()
+    {
+        $postModel = new Post();
+        $forms = new PostForm();
+        if ($this->request->isPost()) {
+
+
+            $forms->bind($this->request->getPost(), $postModel);
+            $postModel->setDate(date("Y-m-d h:i:s"));
+            $postModel->setIssue(1);
+
+            if (!$postModel->save()) {
+                foreach ($postModel->getMessages() as $msg) {
+                    $this->flashSession->error($msg);
+                    return $this->response->redirect('admin/new-post');
+                }
+            }
+            return $this->response->redirect('admin');
+        }
+        $this->view->form = $forms;
+    }
+
+    public function issueEditAction($id)
+    {
+        $postModel = Post::findFirst($id);
+        $form = new PostForm();
+        if ($this->request->isPost()) {
+
+            $form->bind($this->request->getPost(), $postModel);
+            $postModel->setDate(date("Y-m-d h:i:s"));
+            $postModel->setIssue(1);
+
+            if (!$postModel->save()) {
+                foreach ($postModel->getMessages() as $msg) {
+                    $this->flashSession->error($msg);
+                    return $this->response->redirect('admin/new-post');
+                }
+            }
+            return $this->response->redirect('admin');
+        }
+        $this->view->form = $form;
+        $this->view->post = $postModel;
+    }
+
     public function postAction()
     {
         $postModel = new Post();
@@ -75,6 +119,21 @@ class AdminController extends \Phalcon\Mvc\Controller
             foreach ($postModel->getMessages() as $msg) {
                 $this->flashSession->error($msg);
                 return $this->response->redirect('admin/new-post');
+            }
+        }
+        return $this->response->redirect('admin');
+    }
+
+    public function postDoneAction($id)
+    {
+        $postModel = Post::findFirst($id);
+        if ($postModel->getIssue() == 1) {
+            $postModel->setType(3);
+            if (!$postModel->save()) {
+                foreach ($postModel->getMessages() as $msg) {
+                    $this->flashSession->error($msg);
+                    return $this->response->redirect('admin/new-post');
+                }
             }
         }
         return $this->response->redirect('admin');

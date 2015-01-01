@@ -27,6 +27,11 @@ class Post extends Model
     public $date;
 
     /**
+     * @var tinyint
+     */
+    public $issue;
+
+    /**
      * @var
      */
     public $type;
@@ -34,6 +39,23 @@ class Post extends Model
     public function initialize()
     {
         $this->setSource("posts");
+    }
+
+    /**
+     * @return tinyint
+     */
+    public function getIssue()
+    {
+        return $this->issue;
+    }
+
+    /**
+     * @param tinyint $issue
+     */
+    public function setIssue($issue)
+    {
+        $this->issue = $issue;
+        return true;
     }
 
     /**

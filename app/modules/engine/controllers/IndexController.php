@@ -11,7 +11,7 @@ class IndexController extends \Phalcon\Mvc\Controller
 {
     public function indexAction()
     {
-        $postModel = Post::find();
+        $postModel = Post::find("issue = 0");
         $this->view->setVar('posts', $postModel);
     }
 

@@ -2,7 +2,9 @@
     <div class="row">
         <p>Welcome</p>
 
-        <p><a href="/admin/new-post">New post</a></p>
+        <p class="btn btn-info"><a href="/admin/new-post">New post</a></p>
+        <p class="btn btn-info"><a href="/admin/new-issue">New issue</a></p>
+
     </div>
 
     <div class="row">
@@ -27,8 +29,9 @@
                                   <p><?php echo $ticket['description']?></p>
                                   <p><?php echo $ticket['date']?></p>
                                 <p>
-                                    <a href="/admin/post/edit/<?php echo $ticket['id']?>" class="btn btn-success">Edit</a>
-                                    <a href="/admin/post/delete/<?php echo $ticket['id']?>" class="btn btn-danger">Delete</a>
+                                    <a href="/admin/issue/edit/<?php echo $ticket['id']?>" class="btn btn-success">Edit</a>
+                                    <a href="/admin/issue/delete/<?php echo $ticket['id']?>" class="btn btn-danger">Delete</a>
+                                    <a href="/admin/issue/done/<?php echo $ticket['id']?>" class="btn btn-info">Done</a>
                                 </p>	
       		           <?php }}?>
                             </td>	        						
@@ -40,8 +43,9 @@
                                  <p><?php echo $ticket['description']?></p>
                                 <p><?php echo $ticket['date']?></p>
                                 <p>
-                                    <a href="/admin/post/edit/<?php echo $ticket['id']?>" class="btn btn-success">Edit</a>
-                                    <a href="/admin/post/delete/<?php echo $ticket['id']?>" class="btn btn-danger">Delete</a>
+                                    <a href="/admin/issue/edit/<?php echo $ticket['id']?>" class="btn btn-success">Edit</a>
+                                    <a href="/admin/issue/delete/<?php echo $ticket['id']?>" class="btn btn-danger">Delete</a>
+                                    <a href="/admin/issue/done/<?php echo $ticket['id']?>" class="btn btn-info">Done</a>
                                 </p>	 
 			      <?php }}?>
 			     </td>                 
@@ -54,8 +58,8 @@
                                  <p><?php echo $ticket['description']?></p>
                                  <p><?php echo $ticket['date']?></p>
                             <p>
-                             <a href="/admin/post/edit/<?php echo $ticket['id']?>" class="btn btn-success">Edit</a>
-                             <a href="/admin/post/delete/<?php echo $ticket['id']?>" class="btn btn-danger">Delete</a>
+                             <a href="/admin/issue/edit/<?php echo $ticket['id']?>" class="btn btn-success">Edit</a>
+                             <a href="/admin/issue/delete/<?php echo $ticket['id']?>" class="btn btn-danger">Delete</a>
                            </p>       
 			   <?php }}?>      
 		         </td>	  		           
