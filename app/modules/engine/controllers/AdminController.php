@@ -9,65 +9,9 @@ class AdminController extends \Phalcon\Mvc\Controller
 {
     public function indexAction()
     {
-        $postModel = Post::find();
-        $counter = $postModel->count();
-        $data = array();
+        $postModel = Post::find("issue = 0");
 
-        for ($i = 0; $i < $counter; $i++) {
-            if ($postModel[$i]->getType() == 2) {
-                $data['warning'][] = $postModel[$i]->toArray();
-            } elseif ($postModel[$i]->getType() == 1) {
-                $data['danger'][] = $postModel[$i]->toArray();
-            } elseif ($postModel[$i]->getType() == 3) {
-                $data['success'][] = $postModel[$i]->toArray();
-            }
-        }
-
-        $this->view->setVar('data', $data);
-    }
-
-    public function issueAction()
-    {
-        $postModel = new Post();
-        $forms = new PostForm();
-        if ($this->request->isPost()) {
-
-
-            $forms->bind($this->request->getPost(), $postModel);
-            $postModel->setDate(date("Y-m-d h:i:s"));
-            $postModel->setIssue(1);
-
-            if (!$postModel->save()) {
-                foreach ($postModel->getMessages() as $msg) {
-                    $this->flashSession->error($msg);
-                    return $this->response->redirect('admin/new-post');
-                }
-            }
-            return $this->response->redirect('admin');
-        }
-        $this->view->form = $forms;
-    }
-
-    public function issueEditAction($id)
-    {
-        $postModel = Post::findFirst($id);
-        $form = new PostForm();
-        if ($this->request->isPost()) {
-
-            $form->bind($this->request->getPost(), $postModel);
-            $postModel->setDate(date("Y-m-d h:i:s"));
-            $postModel->setIssue(1);
-
-            if (!$postModel->save()) {
-                foreach ($postModel->getMessages() as $msg) {
-                    $this->flashSession->error($msg);
-                    return $this->response->redirect('admin/new-post');
-                }
-            }
-            return $this->response->redirect('admin');
-        }
-        $this->view->form = $form;
-        $this->view->post = $postModel;
+        $this->view->setVar('data', $postModel);
     }
 
     public function postAction()
@@ -79,6 +23,7 @@ class AdminController extends \Phalcon\Mvc\Controller
 
             $forms->bind($this->request->getPost(), $postModel);
             $postModel->setDate(date("Y-m-d h:i:s"));
+            $postModel->setIssue(0);
 
             if (!$postModel->save()) {
                 foreach ($postModel->getMessages() as $msg) {
@@ -99,6 +44,7 @@ class AdminController extends \Phalcon\Mvc\Controller
 
             $form->bind($this->request->getPost(), $postModel);
             $postModel->setDate(date("Y-m-d h:i:s"));
+            $postModel->setIssue(0);
 
             if (!$postModel->save()) {
                 foreach ($postModel->getMessages() as $msg) {
@@ -119,21 +65,6 @@ class AdminController extends \Phalcon\Mvc\Controller
             foreach ($postModel->getMessages() as $msg) {
                 $this->flashSession->error($msg);
                 return $this->response->redirect('admin/new-post');
-            }
-        }
-        return $this->response->redirect('admin');
-    }
-
-    public function postDoneAction($id)
-    {
-        $postModel = Post::findFirst($id);
-        if ($postModel->getIssue() == 1) {
-            $postModel->setType(3);
-            if (!$postModel->save()) {
-                foreach ($postModel->getMessages() as $msg) {
-                    $this->flashSession->error($msg);
-                    return $this->response->redirect('admin/new-post');
-                }
             }
         }
         return $this->response->redirect('admin');

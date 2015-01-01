@@ -4,17 +4,21 @@ if ($this->flashSession->output()) { ?>
 <?php } ?>
 
 <div class="col-sm-6" style="margin-left: 25%;">
-    <form role="form" action="/admin/post/edit/<?php echo $post->getId() ?>" method="post">
+    <form role="form" action="/admin/new-issue" method="post">
         <div class="form-group">
             <label>Title</label>
             <input type="text" name="title" class="form-control"
-                   value="<?php echo $post->getTitle() ?>">
+                   placeholder="Enter title of issue">
         </div>
         <div class="form-group">
             <label>Description</label>
             <input type="text" name="description" class="form-control"
-                   value="<?php echo $post->getDescription() ?>">
+                   placeholder="Enter some description">
         </div>
-        <button type="submit" class="btn btn-default">Edit</button>
+        <div class="form-group">
+            <label>Type</label>
+            <?= $form->render('type', array("class" => 'form-control')) ?>
+        </div>
+        <button type="submit" class="btn btn-default">Post</button>
     </form>
 </div>

@@ -47,34 +47,16 @@ $router->add('/admin/new-post', array(
     'action' => 'post'
 ))->via(array("GET", "POST"));
 
-$router->add('/admin/new-issue', array(
-    'module' => 'engine',
-    'controller' => 'admin',
-    'action' => 'issue'
-))->via(array("GET", "POST"));
-
 $router->add('/admin/post/edit/{id}', array(
     'module' => 'engine',
     'controller' => 'admin',
     'action' => 'postedit'
 ))->via(array("GET", "POST"));
 
-$router->add('/admin/issue/edit/{id}', array(
-    'module' => 'engine',
-    'controller' => 'admin',
-    'action' => 'issueedit'
-))->via(array("GET", "POST"));
-
 $router->add('/admin/post/delete/{id}', array(
     'module' => 'engine',
     'controller' => 'admin',
     'action' => 'postdelete'
-))->via(array("GET"));
-
-$router->add('/admin/post/done/{id}', array(
-    'module' => 'engine',
-    'controller' => 'admin',
-    'action' => 'postdone'
 ))->via(array("GET"));
 
 $router->add('/admin/sign-out', array(
@@ -90,5 +72,30 @@ $router->add('/sign-up', array(
     'action' => 'signup'
 ))->via(array("GET", "POST"));
 
+/* Help Desk Tool */
+
+$router->add('/admin/help-desk', array(
+    'module' => 'engine',
+    'controller' => 'help-desk',
+    'action' => 'index'
+))->via(array("GET", "POST"));
+
+$router->add('/admin/new-issue', array(
+    'module' => 'engine',
+    'controller' => 'help-desk',
+    'action' => 'issue'
+))->via(array("GET", "POST"));
+
+$router->add('/admin/issue/done/{id}', array(
+    'module' => 'engine',
+    'controller' => 'help-desk',
+    'action' => 'postdone'
+))->via(array("GET"));
+
+$router->add('/admin/issue/edit/{id}', array(
+    'module' => 'engine',
+    'controller' => 'help-desk',
+    'action' => 'issueedit'
+))->via(array("GET", "POST"));
 
 return $router;

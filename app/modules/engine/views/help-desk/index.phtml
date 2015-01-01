@@ -1,0 +1,85 @@
+<div>
+    <div class="row">
+        <p>
+
+        <h2>My personal help-desk</h2></p>
+
+        <p class="btn btn-info"><a href="/admin/new-issue">New issue</a></p>
+
+        <div class="row">
+            <table class="col-sm-12 table table-striped">
+                <thead>
+                <tr>
+                    <th class="col-sm-4">High</th>
+                    <th class="col-sm-4">Middle</th>
+                    <th class="col-sm-4">Done</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <?php
+                    foreach ($data as $key => $values) {
+                        ?>
+                        <?php
+                        if ($key == 'danger') {
+                            ?>
+                            <td class="alert alert-danger">
+                            <?php foreach ($values as $ticket) {
+                                ?>
+                                <p><?php echo $ticket['title'] ?></p>
+                                <p><?php echo $ticket['description'] ?></p>
+                                <p><?php echo $ticket['date'] ?></p>
+                                <p>
+                                    <a href="/admin/issue/edit/<?php echo $ticket['id'] ?>"
+                                       class="btn btn-success">Edit</a>
+                                    <a href="/admin/issue/delete/<?php echo $ticket['id'] ?>"
+                                       class="btn btn-danger">Delete</a>
+                                    <a href="/admin/issue/done/<?php echo $ticket['id'] ?>"
+                                       class="btn btn-info">Done</a>
+                                </p>
+                            <?php }
+                        } ?>
+                        </td>
+                        <?php if ($key == 'warning') { ?>
+                            <td class="alert alert-warning">
+                            <?php foreach ($values as $ticket) {
+                                ?>
+                                <p><?php echo $ticket['title'] ?></p>
+                                <p><?php echo $ticket['description'] ?></p>
+                                <p><?php echo $ticket['date'] ?></p>
+                                <p>
+                                    <a href="/admin/issue/edit/<?php echo $ticket['id'] ?>"
+                                       class="btn btn-success">Edit</a>
+                                    <a href="/admin/issue/delete/<?php echo $ticket['id'] ?>"
+                                       class="btn btn-danger">Delete</a>
+                                    <a href="/admin/issue/done/<?php echo $ticket['id'] ?>"
+                                       class="btn btn-info">Done</a>
+                                </p>
+                            <?php }
+                        } ?>
+                        </td>
+                        <?php
+                        if ($key == 'success') {
+                            ?>
+                            <td class="alert alert-success">
+                            <?php foreach ($values as $ticket) {
+                                ?>
+                                <p><?php echo $ticket['title'] ?></p>
+                                <p><?php echo $ticket['description'] ?></p>
+                                <p><?php echo $ticket['date'] ?></p>
+                                <p>
+                                    <a href="/admin/issue/edit/<?php echo $ticket['id'] ?>"
+                                       class="btn btn-success">Edit</a>
+                                    <a href="/admin/issue/delete/<?php echo $ticket['id'] ?>"
+                                       class="btn btn-danger">Delete</a>
+                                </p>
+                            <?php }
+                        } ?>
+                        </td>
+                    <?php } ?>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

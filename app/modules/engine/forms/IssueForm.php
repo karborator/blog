@@ -7,7 +7,7 @@ use Phalcon\Forms\Element\Text;
 use Phalcon\Forms\Element\Select;
 
 
-class PostForm extends Form
+class IssueForm extends Form
 {
     public function initialize()
     {
@@ -15,10 +15,10 @@ class PostForm extends Form
 
         $this->add(new Text("description"));
 
-//        $this->add(new Select("type", array(
-//            '1' => 'High',
-//            '2' => 'Middle',
-//            '3' => 'Ready'
-//        )));
+        $this->add(new Select("type", array(
+            '1' => 'High',
+            '2' => 'Middle',
+            '3' => 'Ready'
+        )));
     }
 }
