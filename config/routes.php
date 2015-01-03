@@ -89,7 +89,7 @@ $router->add('/admin/new-issue', array(
 $router->add('/admin/issue/done/{id}', array(
     'module' => 'engine',
     'controller' => 'help-desk',
-    'action' => 'postdone'
+    'action' => 'issuedone'
 ))->via(array("GET"));
 
 $router->add('/admin/issue/edit/{id}', array(
