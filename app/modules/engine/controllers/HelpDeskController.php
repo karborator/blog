@@ -75,10 +75,7 @@ class HelpDeskController extends \Phalcon\Mvc\Controller
 
     public function issueDeleteAction($id)
     {
-        $postModel = Post::findFirst(array(
-            'id' => $id,
-            'issue' => 1
-        ));
+        $postModel = Post::findFirst($id);
 
         if (!$postModel->delete()) {
             foreach ($postModel->getMessages() as $msg) {

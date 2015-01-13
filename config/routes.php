@@ -98,4 +98,10 @@ $router->add('/admin/issue/edit/{id}', array(
     'action' => 'issueedit'
 ))->via(array("GET", "POST"));
 
+$router->add('/admin/issue/delete/{id}', array(
+    'module' => 'engine',
+    'controller' => 'help-desk',
+    'action' => 'issuedelete'
+))->via(array("GET", "POST"));
+
 return $router;
